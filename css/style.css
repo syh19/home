@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+body > div {
+  border: 1px solid black;
+}
+.home-img {
+  width: 50px;
+}
+
+#website-list, #social-list {
+  display: flex;
+}
+.link-card {
+  width: 100%;
+  border-radius: 6px;
+  background: rgb(0 0 0 / 25%);
+  backdrop-filter: blur(10px);
+  display: flex;
+}
